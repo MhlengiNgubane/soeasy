@@ -1,0 +1,12 @@
+const mongoose = require('mongoose');
+
+const FoodSchema = new mongoose.Schema({
+    title: {type: String, required: true},
+    time: {type: String, required: true},
+    foodTags: {type: Array, required: true},
+    category: {type: String, required: true},
+    foodT: {type: Array, required: true},
+    imageUrl: {type: String, required: true},
+});
+
+module.exports = mongoose.model('Food', FoodSchemaSchema);
