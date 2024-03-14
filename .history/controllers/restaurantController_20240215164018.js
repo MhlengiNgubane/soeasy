@@ -1,1 +1,0 @@
-const Restaurant = require('../models/')
